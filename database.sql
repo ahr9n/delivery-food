@@ -1,4 +1,4 @@
--- DB_project | food_shop
+-- DB_project | food_delivery
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;

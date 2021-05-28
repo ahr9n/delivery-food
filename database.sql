@@ -39,7 +39,6 @@ CREATE TABLE `order_products` (
   `order` int(11) NOT NULL,
   `product` int(11) NOT NULL,
   `price` double DEFAULT '0',
-  `col` int(11) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- The structure of the `photos` table
@@ -60,7 +59,6 @@ CREATE TABLE `products` (
   `price` double DEFAULT '0',
   `new_price` double DEFAULT NULL,
   `main_photo` varchar(200) DEFAULT NULL,
-  `col` int(11) DEFAULT '0',
   `show` int(1) NOT NULL DEFAULT '1',
   `del` int(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
